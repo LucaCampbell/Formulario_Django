@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Para onde vamos?</h2>
+    <p>Sua origem é: {{ form.origem.value }}</p>
+    <p>Seu destino é: {{ form.destino.value }}</p>
+    <p>Sua data de partida é: {{ form.data_ida.value }}</p>
+    <p>Sua data de retorno é: {{ form.data_volta.value }}</p>
+    <p>Sua classe de vôo é: {{ form.classe_viagem.value }}</p>
+    <p>A data desta consulta: {{ form.data_pesquisa.value }}</p>
+
+{% endblock %}
